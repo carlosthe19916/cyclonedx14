@@ -1,0 +1,9 @@
+[package]
+name = "cyclonedx14"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cyclonedx-bom = { git = "https://github.com/CycloneDX/cyclonedx-rust-cargo", rev = "0aa9ee0c9b28d6b92772330baea957d67f500670" }
